@@ -21,8 +21,8 @@ function App() {
         </div>
 
         <footer className="mt-12 text-center text-gray-500 text-sm">
-          <p>🎵 Created for entertainment purposes only 💨</p>
-          <p className="mt-2">Please use responsibly!</p>
+          <p>🎵 Made by <a href="https://github.com/workhardbekind/fartsy">workhardbekind</a>  💨</p>
+          <p className="mt-2"><a href="https://ko-fi.com/districtdave">Buy Dave a Coffee</a></p>
         </footer>
       </div>
     </div>
