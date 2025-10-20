@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import type { SoundEffect } from '../data/sounds';
-import { Volume2, Volume2Off } from 'lucide-react';
+import { VolumeX, Volume2 } from 'lucide-react';
 
 interface Props {
   sound: SoundEffect;
@@ -30,7 +30,7 @@ export default function SoundButton({ sound }: Props) {
         {isPlaying ? (
           <Volume2 className="w-5 h-5 text-green-500" />
         ) : (
-          <Volume2Off className="w-5 h-5 text-gray-400" />
+          <VolumeX className="w-5 h-5 text-gray-400" />
         )}
       </div>
     </button>
